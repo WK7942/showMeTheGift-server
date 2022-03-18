@@ -37,7 +37,7 @@ public class Board extends BaseEntity {
                 .title(title)
                 .content(content)
                 .readCount(0L)
-                .donateStatus(DonateStatus.COMPLETE)
+                .donateStatus(DonateStatus.READY)
                 .build();
     }
 
